@@ -13,11 +13,18 @@
         <jetty.version>9.4.26.v20200117</jetty.version>
     </properties>
     <dependencies>
+        <!-- db -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
         </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.10.Final</version>
+        </dependency>
+
         <!-- test -->
         <dependency>
             <groupId>junit</groupId>
